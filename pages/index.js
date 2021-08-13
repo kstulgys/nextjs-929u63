@@ -88,6 +88,3 @@ function PrintFrame({ size, type, images = [{}] }) {
     </div>
   );
 }
-
-
-function B
