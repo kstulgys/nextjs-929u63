@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import React from 'react';
+import { Button } from '@chakra-ui/react';
+
 // 3508 x 2480
 
 const a4Width = 2480;
@@ -14,6 +16,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Button>Connect</Button>
         <p>Hello</p>
         <div />
         <PrintFrame />
