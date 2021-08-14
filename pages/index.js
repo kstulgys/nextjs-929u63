@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+// import styles from '../styles/Home.module.css';
 import React from 'react';
 import { Button } from '@chakra-ui/react';
 import {
@@ -24,12 +24,16 @@ const styles = StyleSheet.create({
   }
 });
 
+const imageUrl =
+  'https://images.unsplash.com/photo-1628887391400-0c8cc8f3fac1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80';
+
 // Create Document Component
 const MyDocument = () => (
   <Document>
     <Page size="A4" style={styles.page}>
       <View style={styles.section}>
         <Text>Section #1</Text>
+        {/* <Image src={imageUrl}/> */}
       </View>
       <View style={styles.section}>
         <Text>Section #2</Text>
