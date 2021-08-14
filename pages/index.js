@@ -60,7 +60,7 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
 
-      <main className={styles.main}>
+      <main>
         <Button>Connect</Button>
         <p>Hello</p>
         <div />
@@ -119,20 +119,20 @@ export default function Home() {
   );
 }
 
-function PrintFrame({ size, type, images = [{}] }) {
-  const [image, setImage] = React.useState();
+// function PrintFrame({ size, type, images = [{}] }) {
+//   const [image, setImage] = React.useState();
 
-  return (
-    <div>
-      <img
-        style={{
-          objectFit: 'cover',
-          border: '10px solid blue',
-          height: a4Height * 0.1,
-          width: a4Width * 0.1
-        }}
-        src="https://images.unsplash.com/photo-1628815870764-c903fd82f4d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80"
-      />
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <img
+//         style={{
+//           objectFit: 'cover',
+//           border: '10px solid blue',
+//           height: a4Height * 0.1,
+//           width: a4Width * 0.1
+//         }}
+//         src="https://images.unsplash.com/photo-1628815870764-c903fd82f4d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80"
+//       />
+//     </div>
+//   );
+// }
